@@ -38,9 +38,9 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.IndianRed;
-            label3.Location = new Point(93, 185);
+            label3.Location = new Point(106, 247);
             label3.Name = "label3";
-            label3.Size = new Size(125, 13);
+            label3.Size = new Size(154, 19);
             label3.TabIndex = 6;
             label3.Text = "*Click To Get A Number";
             // 
@@ -49,19 +49,20 @@
             lblQueue.AutoSize = true;
             lblQueue.BorderStyle = BorderStyle.FixedSingle;
             lblQueue.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblQueue.Location = new Point(346, 68);
+            lblQueue.Location = new Point(395, 91);
             lblQueue.Name = "lblQueue";
-            lblQueue.Size = new Size(67, 27);
+            lblQueue.Size = new Size(135, 34);
             lblQueue.TabIndex = 5;
-            lblQueue.Text = "label2";
+            lblQueue.Text = "P - XXXXX";
             // 
             // btnCashier
             // 
             btnCashier.FlatStyle = FlatStyle.Flat;
             btnCashier.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCashier.Location = new Point(81, 39);
+            btnCashier.Location = new Point(93, 52);
+            btnCashier.Margin = new Padding(3, 4, 3, 4);
             btnCashier.Name = "btnCashier";
-            btnCashier.Size = new Size(149, 133);
+            btnCashier.Size = new Size(170, 177);
             btnCashier.TabIndex = 4;
             btnCashier.Text = "Cashier";
             btnCashier.UseVisualStyleBackColor = true;
@@ -69,12 +70,13 @@
             // 
             // QueuingForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(label3);
             Controls.Add(lblQueue);
             Controls.Add(btnCashier);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "QueuingForm";
             Text = "QueuingForm";
             ResumeLayout(false);

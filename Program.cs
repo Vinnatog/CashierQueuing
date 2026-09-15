@@ -15,8 +15,11 @@ namespace CashierQueuing
 
             CashierWindowQueueForm cashierWindow = new CashierWindowQueueForm();
             cashierWindow.Show();
+            ServingForm servingForm = new ServingForm();
+            servingForm.Show();
 
             Application.Run(new QueuingForm());
+            Application.Run(servingForm);
         }
     }
 }
